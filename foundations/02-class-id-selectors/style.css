@@ -7,10 +7,10 @@
     font-size: 36px;
 }
 #third {
-    font-size: 24px;
+    font-size: 24px; 
 }
 #fourth {
     background-color: rgb(144,256,144);
     font-size: 24px;
-    font-style: strong;
+    font-weight: 900;
 }

@@ -28,7 +28,7 @@ body {
   background: royalblue;
   flex-basis: 100%;
   flex-wrap: wrap; 
- 
+
 }
 
 .card {
@@ -50,4 +50,12 @@ body {
   justify-content: space-between;
   padding: 32px;
   gap: 32px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }

@@ -26,7 +26,9 @@ body {
 .sidebar {
   width: 300px;
   background: royalblue;
-  align-items: stretch;
+  flex-basis: 100%;
+  flex-wrap: wrap; 
+ 
 }
 
 .card {

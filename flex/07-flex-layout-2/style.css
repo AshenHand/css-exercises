@@ -26,10 +26,26 @@ body {
 .sidebar {
   width: 300px;
   background: royalblue;
+  align-items: stretch;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 16px;
+  flex: 0 1 24%;
+}
+
+.middle {
+  display: flex;
+
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 32px;
+  gap: 32px;
 }
